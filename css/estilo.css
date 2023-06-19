@@ -1,0 +1,202 @@
+html{
+    background-color: rgb(194, 247, 194);
+}
+/* HEADER */
+header{
+    background-image: url(../media/fondo\ background.jpg);
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    width: 100px;
+}
+
+header ul{
+    list-style: none;
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block;
+    padding-right: 20px;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* FIN HEADER */
+
+/* FOOTER */
+
+footer{
+    background-image: url(../media/fondo\ background.jpg);
+    height: 200px;
+}
+
+i{
+    color: white;
+    padding: 40px;
+    align-items: flex-start;
+
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.irArriba{
+    margin-left: auto;
+}
+
+
+
+
+/* MAIN */
+
+.titulo{
+    text-align: center;
+    font-size: 60px;
+    background-color: white;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+
+.fotoInicio img{
+    width: 30rem;
+    height: 40rem;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    padding: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+.fotoNovedades img{
+    width: 20rem;
+}
+
+/* BOTON BUSCAR Y CATEGORIAS */
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+  }
+  
+  .search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .categorias {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .categorias-text {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .hamburger-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hamburger {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .hamburger-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 4px;
+  }
+
+  /* NOSOTROS */
+  
+  .parrafoNosotros {
+    font-size: 30px;
+    line-height: 70px;
+    max-width:60%;
+  }
+
+  .parrafoNosotrosContenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* CONTACTANOS */
+
+form {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input, textarea, button {
+    margin-bottom: 30px;
+    width: 60%;
+  }
+
+#mensaje {
+  height: 90px; 
+}
+
+#enviar{
+    width: 80px;
+}
+
+
+
+  
+
+  
