@@ -1,33 +1,9 @@
 html{
-    background-color: rgb(194, 247, 194);
+  background-image:radial-gradient(circle, rgba(139,0,82,1) 0%, rgba(9,79,121,1) 100%);
 }
+
+
 /* HEADER */
-header{
-    background-image: url(../media/fondo\ background.jpg);
-    display: flex;
-    flex-direction: row;
-}
-header img{
-    width: 100px;
-}
-
-header ul{
-    list-style: none;
-    text-align: center;
-}
-
-header ul li{
-    display: inline-block;
-    padding-right: 20px;
-    
-}
-
-header ul li a{
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
-
 
 /* FIN HEADER */
 
@@ -69,10 +45,10 @@ footer ul{
 .titulo{
     text-align: center;
     font-size: 60px;
-    background-color: white;
-    padding-bottom: 3px;
-    padding-top: 3px;
+    padding-bottom:50px;
+    padding-top: 50px;
     font-family: 'Poltawski Nowy', serif;
+
 }
 
 
@@ -99,6 +75,15 @@ h2{
 
 .fotoNovedades img{
     width: 20rem;
+}
+
+.carousel-item img{
+  height: 800px;
+  width: 400px;
+}
+.carousel-item{
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 /* BOTON BUSCAR Y CATEGORIAS */
