@@ -1,5 +1,6 @@
 html{
   background-image:radial-gradient(circle, rgba(139,0,82,1) 0%, rgba(9,79,121,1) 100%);
+
 }
 
 
@@ -41,6 +42,17 @@ footer ul{
 
 
 /* MAIN */
+
+.sections{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+div img{
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  text-decoration: none;
+}
 
 .titulo{
     text-align: center;
